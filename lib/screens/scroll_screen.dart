@@ -7,7 +7,10 @@ class ScrollScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.red, Colors.green],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            stops: [0.5,0.5],
+            colors: [Color.fromARGB(255, 120, 234, 198), Color.fromARGB(255, 90, 193, 233)],
           ),
         ),
         child: PageView(
