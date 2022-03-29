@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:ui_designs_series_e001/widgets/background_widget.dart';
-import 'package:ui_designs_series_e001/widgets/bottom_navigation_widget.dart';
-import 'package:ui_designs_series_e001/widgets/title_widget.dart';
+import '../widgets/background_widget.dart';
+import '../widgets/bottom_navigation_widget.dart';
+import '../widgets/cards_table.dart';
+import '../widgets/title_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -29,6 +30,7 @@ class _BodyHomePage extends StatelessWidget {
       child: Column(
         children: [
           TitleWidget(),
+          CardsTable(),
           
         ],
       ),

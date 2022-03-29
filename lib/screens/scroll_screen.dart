@@ -22,7 +22,7 @@ class ScrollScreen extends StatelessWidget {
               color: Color.fromARGB(255, 90, 193, 233),
               child: Center(
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () => Navigator.pushNamed(context, 'basic_design'),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10.0),
                     child: Text(
